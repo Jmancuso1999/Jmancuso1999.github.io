@@ -1,0 +1,109 @@
+/*Global Styles
+--------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+/* html and *, the box-sizing should ALWAYS be in all projects */
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 300px;
+}
+
+a {
+    color: #FFE66D; /* Changes the color of links (<a href>) to yellow*/
+}
+a:hover {
+    text-decoration: none;  /* Removes the underline if highlihging over link (<a href> element) */
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;    /* Pushes all the content inward --> specifically the margin space between colors */
+}
+
+/* Profile
+--------------------------*/
+header {
+    background: #5908f0;
+    text-align: center;
+    color: white;
+}
+
+/* Projects
+--------------------------*/
+.project {                      /* Any section with a class = "project" will get these changes*/
+    background: #9edf79;
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+    /* Specific to project <a href> links*/
+.project a {
+
+}
+    /* For the class btn (specifically things we consider a button) within the "project" class*/
+.project .btn {
+    color: #F7FFF7; /* Makes the color of text */
+    background: #2F3061;
+    text-decoration: none; /* Removes underline of links (<a href>) */
+    padding: 8px;
+    border-radius: 4px; /* Rounds out block to make it look like a button */
+    display: inline-block; /*Button is inside of padding space */
+}
+
+.project a:hover {
+    background: rgb(47,48,97, 80%); /* Changes color of <a href> elements when highlighting them*/
+}
+
+.project img {
+    float: left;
+    margin: 20px;
+
+}
+
+.project h3 {
+    margin-top: auto;
+}
+/* Work Experience
+--------------------------*/
+.work-experience {
+    background: #ee73bf;
+}
+
+/* Education
+--------------------------*/
+.education {
+    background: #f3523d;
+}
+
+/* Footer
+--------------------------*/
+footer {
+    background: #403d46;
+    padding: 20px 0; 
+    text-align: center;
+    color: white;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline;
+}
