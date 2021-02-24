@@ -82,6 +82,12 @@ header {
     background: #ee73bf;
 }
 
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Since there is two div selectors, the 1fr (represents the class job-item and 2fr (represents job-description)*/
+    column-gap: 20px;
+}
+
 /* Education
 --------------------------*/
 .education {
