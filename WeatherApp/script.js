@@ -31,10 +31,13 @@ $(document).ready(function() {
 
         var icon = data.weather[0].icon;
 
+        var wind = data.wind.speed;
+
         $('#city').html(city);
         $('#temp').html(temp);
         $('#desc').html(desc);
         $('#icon').attr('src', icon);
+        $('#wind').html(wind + "mph");
     }
 
 });
