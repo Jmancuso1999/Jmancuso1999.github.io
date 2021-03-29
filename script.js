@@ -37,7 +37,7 @@ $(document).ready(function() {
         $('#temp').html(temp);
         $('#desc').html(desc);
         $('#icon').attr('src', icon);
-        $('#wind').html(wind + "mph");
+        $('#wind').html("Wind: " + Math.round(wind) + " mph");
     }
 
 });
