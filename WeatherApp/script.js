@@ -33,7 +33,7 @@ $(document).ready(function() {
 
         var wind = data.wind.speed;
 
-        $('#city').html(city);
+        $('.city').html(city);
         $('#temp').html(temp);
         $('#desc').html(desc);
         $('#icon').attr('src', icon);
