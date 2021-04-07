@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset = "UTF-8">
+        <title>Instructor Enroll Page</title>
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="../js/new_user.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class = "logo">
+                <img src="../img/logo.jpg" alt="QC Logo">
+            </div>
+            <div id="menuBar">
+                <nav>
+                    <a href="instructorHome.html">Home</a> &nbsp;
+                    <a href="instructorEnroll.html">Manage Courses</a>
+                </nav>
+            </div>
+        </header>
+        <!-- Create Course container that requires user to input course #, course name, department,
+                        instructor name, days and times of classes, capacity, semester, and description
+                        -->
+        <div class="flexbox-container">
+            <form>
+                <h2>Create Course</h2>
+                <div id="courseName">
+                    <div id="courseLabel">
+                        <label for ="courseN">Course Name:</label>
+                    </div>
+                    <input type="text" id="courseN" name="courseN" placeholder="" required>
+                </div>
+                <div id="department">
+                    <div id="departmentLabel">
+                        <label for ="depart">Department:</label>
+                    </div>
+                    <input type="text" id="depart" name="depart" placeholder="" required>
+                </div>
+                <div id="uniqueNumber">
+                    <label for ="uniqueNum">Course Number:</label>
+                    <input type="text" id="uniqueNum" name="uniqueNum" placeholder="">
+                </div>
+                <div id="instructor">
+                    <div id="instructorLabel">
+                        <label for ="instruct">Instructor:</label>
+                    </div>
+                    <input type="text" id="instruct" name="instruct" placeholder="">
+                </div>
+                <div id="capacity">
+                    <label for ="capacityNum">Capacity:</label>
+                    <input type="number" id="capacityNum" name="capacityCount" placeholder="" required>
+                </div>
+                <div id="daysOfClasses">
+                    <div id="day1">
+                        <label for ="mon">
+                            <input type="checkbox" id="mon" name="mon"><br>
+                            Mon
+                        </label>
+                    </div>
+                    <div id="day2">
+                        <label for ="tues">
+                            <input type="checkbox" id="tues" name="tues"><br>
+                            Tues
+                        </label>
+                    </div>
+                    <div id="day3">
+                        <label for ="wed">
+                            <input type="checkbox" id="wed" name="wed"><br>
+                            Wed
+                        </label>
+                    </div>
+                    <div id="day4">
+                        <label for ="thurs">
+                            <input type="checkbox" id="thurs" name="thurs"><br>
+                            Thurs
+                        </label>
+                    </div>
+                    <div id="day5">
+                        <label for ="fri">
+                            <input type="checkbox" id="fri" name="fri"><br>
+                            Fri
+                        </label>
+                    </div>
+                    <div id="day6">
+                        <label for ="sat">
+                            <input type="checkbox" id="sat" name="sat"><br>
+                            Sat
+                        </label>
+                    </div>
+                    <div id="day7">
+                        <label for ="sun">
+                            <input type="checkbox" id="sun" name="sun"><br>
+                            Sun
+                        </label>
+                    </div>
+                </div>
+                <div id="timeOfClass">
+                    <label for ="classTime">Time of Class:</label>
+                    <input type="time" id="classTime" name="classTime" placeholder="" required>
+                </div>
+                <div id="semester">
+                    <label for ="searchSem">Semester:</label>
+                    <select name="terms" id="searchSem" required>
+                        <option value="Spring 2021">Spring 2021</option>
+                        <option value="Summer 2021">Summer 2021</option>
+                        <option value="Fall 2021">Fall 2021</option>
+                    </select>
+                </div>
+                <div id="enrollmentDeadline">
+                    <label for="enrollDeadline">Enrollment Deadline:</label>
+                    <span id="enrollDeadline">automatically generated</span>
+                </div>
+                <div id="description">
+                    <label for ="desc">Description:</label>
+                    <textarea id="desc" name="classDesc" rows="5" cols="40" placeholder="brief description of your new course.."></textarea>
+                </div>
+                <div class = "createCourse">
+                    <label for = "createCourseBtn"></label>
+                    <input type="submit" id="createCourseBtn" name="createNewClass" value = "Create Course">
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <address>
+                <div id="address">
+                    <p>Queens College, CUNY</p>
+                    <p>65-30 Kissena Blvd.</p>
+                    <p>Queens, NY 11367-1597</p>
+                </div>
+                <div id="contactInfo">
+                    <p>Phone: (718) 997-5000</p>
+                </div>
+            </address>
+        </footer>
+    </body>
+</html>
