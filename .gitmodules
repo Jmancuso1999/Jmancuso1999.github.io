@@ -1,0 +1,3 @@
+[submodule "qcfirst"]
+	path = qcfirst
+	url = https://github.com/Jmancuso1999/qcfirst.git
