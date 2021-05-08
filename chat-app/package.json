@@ -1,7 +1,6 @@
 {
   "name": "05_01",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "jasmine",
@@ -13,10 +12,11 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.17.1",
-    "mongoose": "^4.11.13",
+    "mongoose": "^5.12.7",
     "socket.io": "^2.0.3"
   },
   "devDependencies": {
     "jasmine": "^2.8.0"
-  }
+  },
+  "description": ""
 }
