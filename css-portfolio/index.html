@@ -3,92 +3,110 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James Mancuso Resume</title>
-    <!-- THIS IS WHERE I AM PUTTING A S LINK-->
-    <link rel = "stylesheet" href = "css/styles.css">
+    <title>Christina Truong, Tech Educator + Front-end Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-        <header>
-          <div class = "content-wrap">
-          <h1>James Mancuso Resume</h1>
-          <h2>Student</h2>
+      <!-- ***************  ABOUT / PROFILE  **************** -->
+      <header>
+        <div class="content-wrap">
+          <h1>James Mancuso</h1>
+          <h2>Computer Science Major</h2>
 
-          <p>No comment right now</p>
-          </div>
-        </header>
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class = "project">
-        <div class = "content-wrap divider">
-          <h2>Featured Projects</h2>
-          <p>View selected projects below. More information can be found at <a class = "btn" href="https://github.com/Jmancuso1999">GitHub</a>.</p>
+          <p>Languages: Java, Python, SQL, HTML, CSS, JavaScript</p>
+          <p>Databases: SQL - (Oracle, Postgres), NoSQL - (MongoDB)</p>
+          <p>Applications: Visual Studios Code, Git/GitHub</p>
+          <p>Relevant Courses: Object Oriented Programming in  Java, Assembly Language, Data Structures & Analysis of Algorithms, Computer Architecture, Databases, Software Engineering, Internet and Web Technologies </p>
 
-          <!-- Copy the whole <section> block to add more projects. -->
-          <section class = "project">
-            <img src="images/thumbnail-2.jpg" alt="description of image">
-            <h3>Project Name</h3>
-            <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-            <a class = "btn" href="#" target="_blank">View project / case study</a>
-          </section>
-          <section class="project">
-
-          </section>
         </div>
-        <!-- End of Project block. -->
+      </header>
+
+      <!-- ************ PROJECTS / PORTFOLIO  ************** -->
+      <section class="projects">
+        <div class="content-wrap divider">
+          <h2>Featured Projects</h2>
+          <p>View selected projects below. More information can be found at <a href="https://github.com/Jmancuso1999">github.com/Jmancuso1999</a>.</p>
+
+          <!-- Project 1 -->
+          <section class="project-item">
+            <h3>Process Control Block Simulation - Java</h3>
+            <p> Simulated and analyzed the performance of different simulations of a Process Control Block by creating and destroying child processes. Simulated program by creating objects that implemented linked list and array list. Analyzed the runtime and efficiency of both methods.</p>
+            <a class="btn" href="https://github.com/Jmancuso1999/CS340/tree/main/ProcessControlBlock" target="_blank">GitHub Repo</a>
+          </section>
+
+          <!-- Project 2 -->
+          <section class="project-item">
+            <h3>Recent Buzz – Python</h3>
+            <p> Determined most popular stocks by scraping tweets using a twitter API. Scheduled tweets for top discussed stocks by using a CRON script.</p>
+            <a class="btn" href="https://github.com/Jmancuso1999/Recent-Buzz" target="_blank">GitHub Repo</a>
+          </section>
+
+        </div>
       </section>
 
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class = "work-experience">
-        <div class = "content-wrap item-details divider">
+      <!-- ****************  WORK EXPERIENCE  ******************** -->
+      <section class="work-experience">
+        <div class="content-wrap item-details divider">
           <h2>Work Experience</h2>
-          <!-- Copy this whole <section> block to add more jobs. -->
-          <section class = "job-item">
+          <p>See my complete work history on <a href="https://www.linkedin.com/in/james-mancuso-a87522174/">LinkedIn</a>.</p>
+
+          <!-- Job 1 -->
+          <section class="job-item">
             <div class="job-details">
-              <h3>Job title</h3>
-              <p>Company Name</p>
-              <p>Date at job</p>
+              <h3>Retail Sales Associate</h3>
+              <p>CVS Pharmacy</p>
+              <p>July 2020 - Present</p>
             </div>
             <div class="job-summary">
-              <p>Job summary goes here. Add as many paragraphs as you need.</p>
-              <p>Optional list:</p>
-              <ul>
-                <li>Delete this list if you don't need it.</li>
-                <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for...</li>
-              </ul>
+              <p>Operated a cash register to process cash, check, and credit card transactions.</p>
+              <p>Handled inventory, stocking, and assistance of customers queries.</p>
             </div>
-          </section> <!-- End of 1st job block-->
+          </section>
+
+          <!-- Job 2 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Student Work Aide – Receptionist</h3>
+              <p>Queens College of the City University of New York</p>
+              <p>November 2019 – June 2020</p>
+            </div>
+            <div class="job-summary">
+              <p>Handled and redirected customer queries.</p>
+              <p>Assisted with organization of company functions and events.</p>
+            </div>
+          </section>
+
         </div>
-        <!-- End of Job block. -->
       </section>
 
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class = "education">
-        <div class = "content-wrap item-details">
+      <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
+      <section class="education">
+        <div class="content-wrap item-details">
           <h2>Education</h2>
 
-          <!-- Copy this whole <section> block to add more schools. -->
           <section>
-            <h3>Queens College - Flushing, NY</h3>
-            <p>Bachelor of Arts in Computer Science - GPA: 3.73</p>
-            <p>Summary or accomplishments.</p>
+            <h3>Queens College of the City University of New York - Flushing, NY</h3>
+            <p>Bachelor of Arts in Computer Science -  EXPECTED 05/2021</p>
+            <p>GPA: 3.73/4.0; Dean’s List – 5 semesters</p>
+          </section>
+
         </div>
-        </section>
-        <!-- End of School block. -->
       </section>
 
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
       <footer>
-        <h2>Let's Keep in Touch!</h2>
+        <div class="content-wrap">
+          <h2>Contact Information</h2>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul class = "contact-list">
-          <li><a href="mailto:Jmancuso1999@gmail.com">Contact Me</a></li>
-          <li><a href="https://github.com/Jmancuso1999" target="_blank">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/james-mancuso-a87522174/" target="_blank">LinkedIn</a></li>
-        </ul>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="contact-list">
+            <li><a href="mailto:Jmancuso1999@gmail.com">Jmancuso1999@gmail.com</a></li>
+            <li><a href="http://Jmancuso1999.github.io" target="_blank">Jmancuso1999.github.io</a></li>
+            <li><a href="https://www.linkedin.com/in/james-mancuso-a87522174/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>

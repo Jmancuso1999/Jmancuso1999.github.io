@@ -1,4 +1,14 @@
 #headerItems > li{
     padding-left:30px;
     padding-right:30px;
-  }
+}
+@media screen and (min-width: 768px) {
+  .figure {
+    max-width: 25%; 
+    padding-left: 1px;
+  } 
+}
+
+.figure, .figure-caption {
+  padding-left: 1px;
+}
