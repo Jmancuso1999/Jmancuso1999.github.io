@@ -74,8 +74,14 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
+  background: #218813;
   color: #F7FFF7;
+}
+
+/* Skills
+------------------------------------*/
+.skills {
+  background: #2e90e0;
 }
 
 
@@ -89,14 +95,14 @@ header {
 }
 .projects .btn {
   color: #F7FFF7;
-  background: #2F3061;
+  background: #0f5808;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgba(91, 47, 97, 0.8);
 }
 .project-item {
   overflow: hidden;
