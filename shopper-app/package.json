@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "promise": "^8.1.0",
+    "redis-server": "^1.2.2"
+  }
+}
