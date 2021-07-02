@@ -2,7 +2,7 @@
 
 [Personal Website](https://jmancuso1999.github.io/)
 
-### Description: This website consists of a variety of things that have been completed during the Spring 2021 semester for CS355. The website was designed to be responsive (Bootstrap). This website consists of
+### Description: This website consists of some basic information about myself and whatever else I plan on adding to the website. 
 
 - Personal description about me and my skillset.
 - Projects/Assignments completed throughout the semester
