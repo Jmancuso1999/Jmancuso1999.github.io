@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9",
+    "path": "^0.12.7"
+  },
+  "name": "jmancuso1999.github.io",
+  "description": "[Personal Website](https://jmancuso1999.github.io/)",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmancuso1999/Jmancuso1999.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jmancuso1999/Jmancuso1999.github.io/issues"
+  },
+  "homepage": "https://github.com/Jmancuso1999/Jmancuso1999.github.io#readme"
+}
